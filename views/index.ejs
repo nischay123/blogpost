@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+
+
+<% post.forEach(function(x){ %>
+    
+    <div class="container " id="" >
+        <img id ="img1" class="img-thumbnail rounded" style ="height : 200px; width: 300px; " src="<%= x.image %>">
+        <strong> <%= x.title %></strong>
+        <a href="/blogs/<%= x._id %>" type="button" class="btn btn-primary"> description</a>
+        
+    </div>
+<% }); %>
+<%- include('partials/footer') %>

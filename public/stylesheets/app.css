@@ -1,0 +1,15 @@
+.img-thumbnail {
+    width: 300px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#img1{
+    
+    margin: 5px 10px 5px 10px;
+    border: 1px solid #3366ff;
+}
+#indexdiv{
+    width :50%;
+    margin-left : 800px;
+}

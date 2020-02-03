@@ -1,0 +1,19 @@
+
+<%- include('partials/header') %>
+
+
+
+<div class="container">
+    <h1><%= blog.title %> </h1>
+    <div class="image"> <img src="<%= blog.image %>" alt=""></div>
+    <div class="container"> 
+        <p> <%- blog.body %></p>
+    </div>
+<form method="POST" action="/blogs/<%=blog._id%>?_method=DELETE">
+    <div class="form-group">
+        <button type="submit" value="Submit">Delete</button>              
+    </div>
+</form>
+
+</div>
+<%- include('partials/footer') %>
